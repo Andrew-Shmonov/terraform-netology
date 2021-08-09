@@ -49,11 +49,11 @@
  v0.12.24  
 
 5. Найдите коммит, в котором была создана функция func providerSource. Её определение в коде выглядит так: func providerSource(...) (вместо троеточия перечислены аргументы).  
- `git log -S “func providerSource(” --pretty=format:"%h, %an, %ad, %s"`
+ `git log -S “func providerSource(” --pretty=format:"%h, %an, %ad, %s"`  
  8c928e835
 
 6. Найдите все коммиты, в которых была изменена функция globalPluginDirs.
- Поиском нашёл, в каком файл находится функция, потом `git log -L :globalPluginDirs(:plugins.go`
+ Поиском нашёл, в каком файл находится функция, потом `git log -L :globalPluginDirs(:plugins.go`  
  78b122055  
  52dbf9483  
  41ab0aef7  
@@ -61,7 +61,7 @@
  8364383c3 (добавлена)
 
 7. Кто автор функции synchronizedWriters? 
- `git log -S "synchronizedWriters(" --pretty=format:"%h, %an, %ad, %s"`  и можно посмотреть по времени коммита 
+ `git log -S "synchronizedWriters(" --pretty=format:"%h, %an, %ad, %s"`  и можно посмотреть по времени коммита   
  Martin Atkins
  
  
