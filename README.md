@@ -60,8 +60,8 @@
  66ebff90c  
  8364383c3 (добавлена)
 
-7. Кто автор функции synchronizedWriters? 
- `git log -S "synchronizedWriters(" --pretty=format:"%h, %an, %ad, %s"`  и можно посмотреть по времени коммита   
+7. Кто автор функции synchronizedWriters?   
+ `git log -S "synchronizedWriters(" --pretty=format:"%h, %an, %ad, %s"`  и можно посмотреть по времени коммита    
  Martin Atkins
  
  
